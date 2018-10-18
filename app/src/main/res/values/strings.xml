@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Coach</string>
+    <string name="title_activity_main">Coach</string>
+    <string name="title_activity_change_log">ChangeLog</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Nav header desc</string>
+    <string name="nav_header_title">Coach</string>
+    <string name="nav_header_subtitle">Trenuj ze mną</string>
+
+    <string name="training">Training %2$d</string>
+    <string name="trainings">Trainings</string>
+    <string name="trainings_history">Trainings - History</string>
+    <string name="communicate">Communicate</string>
+    <string name="messages">Messages</string>
+    <string name="bmi">BMI</string>
+    <string name="new_bmi">BMI - New</string>
+    <string name="bmi_history">BMI - History</string>
+    <string name="management">Management</string>
+    <string name="account">Account</string>
+    <string name="changeLog">Change Log</string>
+    <string name="log_out">Log out</string>
+
+    <!-- Training fragment -->
+    <string name="duration">Duration: </string>
+    <string name="duration_time_00_00">00:00</string>
+    <string name="value_steps">0</string>
+    <string name="steps_out_of">steps out of</string>
+    <string name="startTraining">START</string>
+    <string name="end_training">END</string>
+
+    <string name="training_started_string">Training started</string>
+    <string name="training_ended_string">Training ended</string>
+
+
+    <!-- Training history fragment-->
+    <string name="training_nr" formatted="true">Training %1$d</string>
+    <string name="date_from_to">%1$s - %2$s</string>
+    <string name="count_steps_out_of_steps">%1$d out of 10000 steps</string>
+    <string name="duration_time_string" formatted="true">Duration time: %1$s</string>
+    <string name="percent">50%</string>
+    <string name="from_string">from</string>
+    <string name="steps_string">steps</string>
+    <string name="no_data_history_training">No training to display</string>
+
+    <!-- Messages fragment-->
+    <string name="example_message_content">Example message content</string>
+    <string name="time_message">2018-02-15 20:01</string>
+    <string name="coach_name">Name coach</string>
+    <string name="write_a_message_string">Write a message...</string>
+    <string name="no_data_contacts">No contacts</string>
+    <string name="string_no_messages">No messages</string>
+
+    <!-- New BMI fragment-->
+    <string name="no_data_bmi_string">No data</string>
+    <string name="basic">Basic</string>
+    <string name="heightStringAddBmi">Height: </string>
+    <string name="heightAddBmiString">Height: 0 cm</string>
+    <string name="weightAddBmiString">Weight: 0 kg</string>
+    <string name="weight_set">Set weight: </string>
+
+    <!-- BMI history fragment-->
+    <string name="your_bmiViewItemBmiString">Your BMI</string>
+    <string name="bmi_value" formatted="true">BMI: %1$.2f</string>
+    <string name="weight_value">Weight: %1$d kg</string>
+    <string name="value_nr">1</string>
+    <string name="note_bmi">Note BMI</string>
+
+    <!-- Account fragment-->
+    <string name="first_name_string">First name</string>
+    <string name="email_string">E-mail</string>
+    <string name="adres_string">Address</string>
+    <string name="gender_string">Gender</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="height_string">Height</string>
+    <string name="weight_string">Weight</string>
+    <string name="number_of_workout_string">Number of training</string>
+    <string name="total_number_of_steps_string">Total number of steps</string>
+    <string name="total_number_of_bmis_string">Total number of BMIs</string>
+
+    <!-- ChangeLog activity-->
+    <string name="large_text">
+        "In Progress: \n"
+        "- MainActivity - zapisywanie danych o przebytych krokach z róznym interwałem \n\n"
+
+        "\n\nChange log application Coach: \n"
+        "- MainActivity - implementacja krokomierza na podstawie krokomierza \n\n"
+        "- MainActivity - przygotowanie widoku, implementacja krokomierza \n\n"
+        "- ProfileActivity - podgląd danych uzupełnionych podczas rejestracji \n\n"
+        "- ChangeLogActivity - Funkcja openGmail - wysyłka maila za pośrednictwem gmail \n\n"
+        "- MainActivity - stworzenie głównego widoku aplikacji, funkcja wylogowania z aplikacji \n\n"
+        "- RegisterActivity - stworzenie widoku, podłączenie się do usułgi Database z Firebase \n\n"
+        "- Login activity - stowrzenie widoku, podłączenie projektu do Firebase'a, wybranie metody logowania przy pomocy mail'a oraz hasła z Firebase Authentication \n"
+    </string>
+    <string name="suggest_change_or_sth_new">Suggest change or new something</string>
+
+    <!-- Register activity-->
+    <string name="register_account_string">Register account</string>
+    <string name="registerButton_string">Register</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_locations">Enter your city</string>
+    <string name="your_bmi">Your BMI:</string>
+    <string name="gender_prompt">Choose gender</string>
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="please_enter_email">Please enter e-mail</string>
+    <string name="registration_in_progress">Registration in progress...</string>
+    <string name="registered_successfully">Registered successfully</string>
+    <string name="registration_please_try_again">Could not register, please try again. </string>
+
+    <!-- Login activity-->
+    <string name="user_login">Login</string>
+    <string name="enter_mail">Enter e-mail...</string>
+    <string name="enter_password">Enter password...</string>
+    <string name="log_in">Log In</string>
+    <string name="not_have_an_account_sign_up_here">No account yet? Create one</string>
+    <string name="logged_in_successfully">Log in successfully</string>
+    <string name="log_in_please_try_again">Failed to log in. Please try again.</string>
+
+    <!-- Others -->
+    <string name="are_you_logout_string">Are you sure you want to log out?</string>
+    <string name="are_you_leave_app_string">Are you sure you want to leave?</string>
+    <string name="leave_app">Close app</string>
+    <string name="yes_string">Yes</string>
+    <string name="no_string">No</string>
+    <string name="password_is_not_valid">Password have to 8 chars</string>
+    <string name="date_of_birth_is_not_set">Date of birth is not set.</string>
+    <string name="bmi_is_not_set">Bmi is not set. Check weight and height.</string>
+    <string name="name_is_empty">Enter name</string>
+    <string name="address_is_empty">Enter city</string>
+
+
+</resources>

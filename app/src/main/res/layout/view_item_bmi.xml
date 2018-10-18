@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_history">
+
+    <TextView
+        android:id="@+id/textViewDateMeasureBmi"
+        android:text="@string/time_message"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewMeasureBmi" />
+
+    <TextView
+        android:id="@+id/textViewMeasureBmi"
+        android:text="@string/your_bmiViewItemBmiString"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#8b0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textViewDateMeasureBmi"
+        android:layout_toEndOf="@+id/textViewIconWeight"
+        android:layout_marginStart="21dp" />
+
+    <TextView
+        android:id="@+id/textViewWeightBmi"
+        android:text="@string/weight_value"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMeasureBmi"
+        android:layout_alignStart="@+id/textViewMeasureBmi" />
+
+    <TextView
+        android:id="@+id/textViewIconWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_style_start"
+        android:text="@string/value_nr"
+        android:textColor="#fff000"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/imageViewStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewMeasureBmi"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textViewDateMeasureBmi"
+        app:srcCompat="@android:drawable/btn_star"
+        android:contentDescription="@string/note_bmi"/>
+
+
+</RelativeLayout>

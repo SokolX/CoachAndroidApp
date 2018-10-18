@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewDateMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="2sp"
+        android:padding="2sp"
+        android:text="@string/time_message"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewContentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="2sp"
+        android:background="@drawable/cloud_message_to_me"
+        android:padding="15sp"
+        android:text="@string/example_message_content"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+</LinearLayout>

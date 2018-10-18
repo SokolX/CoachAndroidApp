@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="@string/trainings"
+        android:visible="true">
+        <menu>
+
+            <item
+                android:id="@+id/training_new"
+                android:icon="@android:drawable/ic_media_play"
+
+                android:title="@string/training" />
+
+            <item
+                android:id="@+id/training_history"
+                android:icon="@android:drawable/ic_menu_crop"
+                android:title="@string/trainings_history" />
+
+        </menu>
+    </item>
+    <item
+        android:title="@string/communicate"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/messages"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="@string/messages" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/bmi"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/bmi_new"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="@string/new_bmi" />
+            <item
+                android:id="@+id/bmi_history"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="@string/bmi_history" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/management"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/account"
+                android:icon="@android:drawable/ic_menu_set_as"
+                android:title="@string/account" />
+            <item
+                android:id="@+id/action_changelog"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="@string/changeLog" />
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@android:drawable/ic_notification_clear_all"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.MessagesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="445sp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/contact_list"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_margin="10sp"
+            android:background="@drawable/background_border"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarThumbHorizontal="@drawable/scrollbar_vertical"
+            android:scrollbars="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/text_no_contact"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_margin="10sp"
+            android:background="@drawable/background_border"
+            android:gravity="center"
+            android:text="@string/no_data_contacts"
+            android:textColor="#006400"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/textViewNoMessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/string_no_messages"
+            android:textAlignment="center"
+            android:textColor="#006400"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_margin="10sp"
+            android:background="@drawable/background_border"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbarThumbVertical="@drawable/scrollbar_vertical"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+        <EditText
+            android:id="@+id/editTextContentMessage"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10sp"
+            android:background="@drawable/background_border"
+            android:hint="@string/write_a_message_string"
+            android:padding="5dp"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="38dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="12sp"
+            android:background="@drawable/button_style_start"
+            android:src="@android:drawable/ic_menu_send" />
+
+    </RelativeLayout>
+</FrameLayout>

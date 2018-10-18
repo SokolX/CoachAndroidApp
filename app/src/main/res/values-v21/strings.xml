@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trainings">Training</string>
+    <string name="communicate">Communicate</string>
+    <string name="bmi">BMI</string>
+    <string name="new_bmi">BMI - New</string>
+    <string name="bmi_history">BMI - History</string>
+    <string name="management">Management</string>
+    <string name="account">Account</string>
+    <string name="changeLog">Change Log</string>
+    <string name="log_out">Log out</string>
+    <string name="nav_header_desc">Nav header desc</string>
+    <string name="nav_header_subtitle">Trenuj ze mną</string>
+    <string name="duration_time_00_00">00:00</string>
+    <string name="value_steps">0</string>
+    <string name="training_nr">Training</string>
+    <string name="count_steps_out_of_steps">5 z 10 kroków</string>
+    <string name="percent">50%</string>
+    <string name="training">Training</string>
+    <string name="example_message_content">Przykładowa wiadomość od trenera do sportowca</string>
+    <string name="time_message">2018-02-15 20:01</string>
+    <string name="coach_name">Name coach</string>
+    <string name="value_nr">1</string>
+    <string name="note_bmi">Note BMI</string>
+    <string name="registration_in_progress">Registration in progress...</string>
+    <string name="registered_successfully">Zarejestrowano</string>
+    <string name="registration_please_try_again">Nie udało się zarejestrować, spróbuj ponownie</string>
+    <string name="logged_in_successfully">Zalogowano</string>
+    <string name="log_in_please_try_again">Wystąpił problem. Spróbuj ponownie zalogować się.</string>
+    <string name="suggest_change_or_sth_new">Zaproponuj zmiane/nową funkcjonalność</string>
+    <string name="date_from_to">2017-01-01 10:00 - 2017-01-10 20:20</string>
+    <string name="field_password_is_empty">Field password is empty</string>
+    <string name="field_email_is_empty">Field e-mail is empty</string>
+    <string name="password_is_not_valid">Password have to 8 chars</string>
+    <string name="date_of_birth_is_not_set">Date of birth is not set.</string>
+    <string name="bmi_is_not_set">Bmi is not set. Check weight and height.</string>
+    <string name="name_is_empty">Enter name</string>
+    <string name="address_is_empty">Enter city</string>
+</resources>
